@@ -1,0 +1,21 @@
+package com.tweetapp.service.impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.tweetapp.model.Test;
+import com.tweetapp.repository.SampleRepository;
+import com.tweetapp.service.SampleService;
+
+@Service
+public class SampleServiceImpl implements SampleService {
+
+	@Autowired
+	public SampleRepository repo;
+	
+	@Override
+	public void addData(Test testData) {
+		repo.save(testData);
+	}
+
+}

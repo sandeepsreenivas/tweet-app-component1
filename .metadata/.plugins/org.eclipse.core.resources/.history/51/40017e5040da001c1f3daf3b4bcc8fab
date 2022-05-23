@@ -1,0 +1,22 @@
+package com.tweetapp.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.tweetapp.model.Test;
+import com.tweetapp.service.SampleService;
+
+@RestController
+public class SampleController {
+	
+	@Autowired
+	public SampleService service;
+
+	@GetMapping("/add")
+	public String addData(Test testItem) {
+		service.addData(testItem);
+		return "Added data";
+	}
+	
+}

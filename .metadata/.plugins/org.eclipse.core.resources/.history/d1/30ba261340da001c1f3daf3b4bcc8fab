@@ -1,0 +1,16 @@
+package com.tweetapp.controller;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.tweetapp.model.Test;
+
+@RestController
+public class SampleController {
+
+	@GetMapping("/add")
+	public String addData(Test testItem) {
+		return "";
+	}
+	
+}

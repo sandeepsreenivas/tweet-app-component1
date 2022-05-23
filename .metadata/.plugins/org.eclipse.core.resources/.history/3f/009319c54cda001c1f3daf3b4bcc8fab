@@ -1,0 +1,9 @@
+package com.tweetapp.repository;
+
+import org.springframework.data.mongodb.repository.MongoRepository;
+
+import com.tweetapp.model.Test;
+
+public interface SampleRepository extends MongoRepository<Test, Long> {
+
+}

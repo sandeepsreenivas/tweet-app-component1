@@ -1,0 +1,12 @@
+package com.tweetapp.entity;
+
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document(collection = "tweets")
+public class Tweet {
+
+	private String id;
+	private String tweet;
+	private String tweetedUser;
+	
+}

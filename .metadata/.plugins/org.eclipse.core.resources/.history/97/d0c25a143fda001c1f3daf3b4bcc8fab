@@ -1,0 +1,15 @@
+package com.tweetapp.model;
+
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document(collection = "test")
+public class Test {
+
+	@Id
+	private Long id;
+	private String name;
+	
+	
+	
+}

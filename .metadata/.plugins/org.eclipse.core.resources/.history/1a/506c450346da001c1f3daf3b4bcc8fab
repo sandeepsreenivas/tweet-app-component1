@@ -1,0 +1,21 @@
+package com.tweetapp;
+
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class TweetAppApplication implements CommandLineRunner {
+
+	public static void main(String[] args) {
+		SpringApplication.run(TweetAppApplication.class, args);
+	}
+
+	@Override
+	public void run(String... args) throws Exception {
+		ApplicationRunner runner = new ApplicationRunner();
+		runner.runApplication();
+		
+	}
+
+}

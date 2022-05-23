@@ -1,0 +1,13 @@
+package com.tweetapp.service.impl;
+
+import com.tweetapp.entity.Tweet;
+import com.tweetapp.service.TweetService;
+
+public class TweetServiceImpl implements TweetService {
+
+	@Override
+	public void postTweet(Tweet tweet) {
+
+	}
+
+}

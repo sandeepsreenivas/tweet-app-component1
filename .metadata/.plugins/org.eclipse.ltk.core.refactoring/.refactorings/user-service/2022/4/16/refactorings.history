@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.learn.Dto&apos; to &apos;com.learn.dto&apos;&#x0A;- Original project: &apos;user-service&apos;&#x0A;- Original element: &apos;user-service/src/main/java/com.learn.Dto&apos;&#x0A;- Renamed element: &apos;user-service/src/main/java/com.learn.dto&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.learn.Dto&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.learn.Dto" name="com.learn.dto" qualified="false" references="true" stamp="1649950510546" textual="false" version="1.0"/>
+</session>

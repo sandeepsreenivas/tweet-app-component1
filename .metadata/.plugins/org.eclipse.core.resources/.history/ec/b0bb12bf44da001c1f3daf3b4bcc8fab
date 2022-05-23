@@ -1,0 +1,5 @@
+package com.tweetapp.model;
+
+public class CreateUserRequest {
+
+}

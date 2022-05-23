@@ -1,0 +1,9 @@
+package com.tweetapp.service;
+
+import com.tweetapp.entity.Tweet;
+
+public interface TweetService {
+
+	public void postTweet(Tweet tweet);
+	
+}
